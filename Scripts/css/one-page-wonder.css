@@ -8,6 +8,7 @@ body {
     padding-top: 54px;
 }
 
+
 /* @media (min-width: 992px) {
     body {
         padding-top: 56px;
@@ -19,27 +20,58 @@ body {
     display: block;
     margin: auto;
 }
- img.umvim {
-     padding-top: 100px;
- }
+
+img.umvim {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
 .mission {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    text-align:center;
-} 
+    text-align: center;
+}
 
-.faqs, .faqs p{
-    padding-top:50px;
+.faqs,
+.faqs p {
+    padding-top: 50px;
+}
+
+.info {
+    text-indent: 50px;
+}
+
+.projects h2 {
+    padding-top: 30px;
+}
+
+.projects.ways h2 {
+    text-align: center;
+}
+
+.projects img {
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.projects .last {
+    margin-bottom: 50px;
+}
+
+.bike {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px
 }
 
 header.masthead>.overlay {
-    padding: 1rem 0; 
+    padding: 1rem 0;
     text-align: center;
     background: rgba(0, 0, 0, 0.6);
 }
 
 .masthead {
     background: url("/Content/cross.jpg") no-repeat fixed;
-    
 }
 
 @media (min-width: 992px) {

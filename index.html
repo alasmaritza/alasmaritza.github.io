@@ -51,13 +51,13 @@
     .overlay {
         position: absolute;
         width: 100%;
-        height: 88vh;
+        height: 80vh;
         z-index: 2;
-        background: rgba(215, 230, 235, 0.5);
+        /* background: rgba(215, 230, 235, 0.5); */
     }
 
     .overlay img {
-        margin-top: 30px;
+        margin-top: 40px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -91,27 +91,36 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="Content/SalLogo.png" class="img-responsive" height="50px"></a>
+            <a class="navbar-brand" href="index.html">
+                <img src="Content/SalLogo.png" class="img-responsive" height="50px">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Who We Are</a>
+                        <a class="nav-link" href="whoWeAre.html">Who We Are</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="faq.html">FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ways to Help</a>
+                        <a class="nav-link" href="waysToHelp.html">Ways to Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.facebook.com/Salvadoran-Mission-Projects-121684477844681/">
+                            <img src="Content/facebook.png" height="30px">
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -148,7 +157,7 @@
         <div class="overlay" style="top:2px">
             <div class="container">
                 <div class="row">
-                    <img class="img-responsive" src="Content/SMP-Logo copy.png" height="500px">
+                    <img src="Content/SMP-Logo copy.png" height="500px">
                 </div>
             </div>
         </div>
@@ -159,13 +168,13 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-2">
                     <div class="p-5">
-                        <img class="img-fluid rounded-circle" src="Content/1422552861.jpg" alt="">
+                        <img class="img-fluid rounded-circle" src="Content/staff-photo.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 order-1">
                     <div class="p-5">
                         <h2 class="display-4">Salvadoran Mission Projects (SMP)</h2>
-                        <p>is a partnership between the Evangelical Methodist Church in El Salvador and United Methodist Volunteers
+                        <p class="info"> is a partnership between the Evangelical Methodist Church in El Salvador and United Methodist Volunteers
                             in Mission in the United States whose purpose is to improve the spiritual and physical lives
                             of economically disadvantaged people living in El Salvador. SMP uses volunteers and funds provided
                             by Evangelical Methodist Churches in El Salvador and United Methodist Churches in the US to build
@@ -187,7 +196,9 @@
                     <!-- <p>Facebook Widget Here</p> -->
                     <div class="fb-page" data-href="https://www.facebook.com/Salvadoran-Mission-Projects-121684477844681/" data-tabs="timeline"
                         data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
-                        <blockquote cite="https://www.facebook.com/Salvadoran-Mission-Projects-121684477844681/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Salvadoran-Mission-Projects-121684477844681/">Facebook</a></blockquote>
+                        <blockquote cite="https://www.facebook.com/Salvadoran-Mission-Projects-121684477844681/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/Salvadoran-Mission-Projects-121684477844681/">Facebook</a>
+                        </blockquote>
                     </div>
                 </div>
             </div>
@@ -197,7 +208,8 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark footer">
         <div class="container">
-            <p class="m-0 text-center text-white">Website Developed By <a href="mailto:alas.maritza.j@gmail.com">Maritza Alas</a> 2017</p>
+            <p class="m-0 text-center text-white">Website Developed By
+                <a href="mailto:alas.maritza.j@gmail.com">Maritza Alas</a> 2017</p>
         </div>
         <!-- /.container -->
     </footer>
