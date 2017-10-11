@@ -44,7 +44,7 @@ img.umvim {
     padding-top: 30px;
 }
 
-.projects.ways h2 {
+.projects.ways h2, .pledge{
     text-align: center;
 }
 
@@ -68,6 +68,10 @@ header.masthead>.overlay {
     padding: 1rem 0;
     text-align: center;
     background: rgba(0, 0, 0, 0.6);
+}
+
+.paypal {
+    margin: 10px;
 }
 
 .masthead {
