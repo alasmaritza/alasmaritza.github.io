@@ -101,4 +101,7 @@ h1.mobile {
     h2.desktop {
         display: none
     }
+    .logo-carousel-overlay {
+        height:450px;
+    }
 }
