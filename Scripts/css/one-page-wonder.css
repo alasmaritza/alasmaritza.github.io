@@ -88,3 +88,17 @@ header.masthead>.overlay {
         padding: 10rem 0;
     }
 }
+
+h1.mobile {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    h1.mobile {
+        display: block
+    }
+    h1.desktop,
+    h2.desktop {
+        display: none
+    }
+}
