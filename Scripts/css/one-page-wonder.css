@@ -44,13 +44,18 @@ img.umvim {
     padding-top: 30px;
 }
 
-.projects.ways h2, .pledge{
+.projects.ways h2,
+.pledge {
     text-align: center;
 }
 
 .projects img {
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 25px;
+}
+
+.projects .description {
+    margin-top: 25px;
 }
 
 .projects .last {
