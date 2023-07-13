@@ -11,7 +11,7 @@ module.exports = {
       m("footer", [
         m("a", { href: "https://linkedin.com/in/maritza-alas" }, "LinkedIn"),
         m("a", { href: "https://github.com/alasmaritza" }, "Github"),
-        m("a", { href: "https://github.com/alasmaritza" }, "Project Repo")
+        m("a", { href: "https://github.com/alasmaritza/mithril_simple_app" }, "Project Repo")
       ])
     ])
   }

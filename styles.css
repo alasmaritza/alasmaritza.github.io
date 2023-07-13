@@ -12,6 +12,7 @@ hr {
 
 a {
   text-decoration: none;
+  color: #9affee;
 }
 
 footer {
@@ -112,10 +113,6 @@ span.title {
 
 .menu > a:active {
   color: white;
-}
-
-a:visited {
-  color: #9affee;
 }
 
 footer > a {
